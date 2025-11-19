@@ -360,7 +360,7 @@ The presentation values for server-ipv4 and server-ipv6 are comma-separated list
 The wire formats for server-ipv4 and server-ipv6 are a sequence of IP addresses, in network byte order, for the respective address family.
 
 The presentation values for server-name and include-delegi are an unordered collection of fully-qualified domain names and relative domain names, separated by commas.
-Relative names in the presentation format are interpreted according origin rules in Section 5.1 of {{!RFC1035}}.
+Relative names in the presentation format are interpreted according to the origin rules in Section 5.1 of {{!RFC1035}}.
 Parsing the comma-separated list is specified in Section A.1 of {{!RFC9460}}.
 
 The DELEG protocol allows the use of all valid domain names, as defined in {{!RFC1035}} and Section 11 of {{!RFC2181}}.
